@@ -16,6 +16,9 @@
 		31E829162981AAA900887CBB /* HumanOrHorsesClassifierAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E829152981AAA900887CBB /* HumanOrHorsesClassifierAppTests.swift */; };
 		31E829202981AAA900887CBB /* HumanOrHorsesClassifierAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E8291F2981AAA900887CBB /* HumanOrHorsesClassifierAppUITests.swift */; };
 		31E829222981AAA900887CBB /* HumanOrHorsesClassifierAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E829212981AAA900887CBB /* HumanOrHorsesClassifierAppUITestsLaunchTests.swift */; };
+		31E8292F2981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31E8292E2981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel */; };
+		31E829302981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31E8292E2981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel */; };
+		31E829312981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31E8292E2981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		31E8291B2981AAA900887CBB /* HumanOrHorsesClassifierAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanOrHorsesClassifierAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E8291F2981AAA900887CBB /* HumanOrHorsesClassifierAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanOrHorsesClassifierAppUITests.swift; sourceTree = "<group>"; };
 		31E829212981AAA900887CBB /* HumanOrHorsesClassifierAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanOrHorsesClassifierAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		31E8292E2981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = HorsesOrHumansClassifier.mlmodel; path = ../../../CoreML/HorsesOrHumans/HorsesOrHumansClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				31E828FE2981AAA800887CBB /* AppDelegate.swift */,
+				31E8292E2981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel */,
 				31E829002981AAA800887CBB /* SceneDelegate.swift */,
 				31E829022981AAA800887CBB /* ViewController.swift */,
 				31E829042981AAA800887CBB /* Main.storyboard */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E8292F2981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel in Sources */,
 				31E829032981AAA800887CBB /* ViewController.swift in Sources */,
 				31E828FF2981AAA800887CBB /* AppDelegate.swift in Sources */,
 				31E829012981AAA800887CBB /* SceneDelegate.swift in Sources */,
@@ -268,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E829302981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel in Sources */,
 				31E829162981AAA900887CBB /* HumanOrHorsesClassifierAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31E829222981AAA900887CBB /* HumanOrHorsesClassifierAppUITestsLaunchTests.swift in Sources */,
+				31E829312981AAF100887CBB /* HorsesOrHumansClassifier.mlmodel in Sources */,
 				31E829202981AAA900887CBB /* HumanOrHorsesClassifierAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
